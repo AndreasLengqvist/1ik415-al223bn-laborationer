@@ -1,0 +1,8 @@
+{"ts":1378470453878,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1378478792298,"patch":[[{"diffs":[[1,"<html>\n    <head>\n        <title>Presentation</title>\n    </head>\n<body>\n\n\n\n</body>\n\n</htlm>\n"]],"start1":0,"start2":0,"length1":0,"length2":93}]],"length":93,"saved":false}
+{"ts":1378478911769,"patch":[[{"diffs":[[0,"\n<body>\n"],[1,"<h1>Vem är jag?</h1>"],[0,"\n\n\n</bod"]],"start1":65,"start2":65,"length1":16,"length2":36}]],"length":113,"saved":false}
+{"ts":1378479059032,"patch":[[{"diffs":[[0,"?</h1>\n\n"],[-1,"\n"],[0,"</body>\n"]],"start1":87,"start2":87,"length1":17,"length2":16}]],"length":112,"saved":false}
+{"ts":1378479359453,"patch":[[{"diffs":[[0,"<h1>"],[-1,"Vem är jag?"],[0,"</h1"]],"start1":73,"start2":73,"length1":19,"length2":8}]],"length":101,"saved":false}
+{"ts":1378479443210,"patch":[[{"diffs":[[0,"dy>\n<h1>"],[1,"Hej"],[0,"</h1>\n\n<"]],"start1":69,"start2":69,"length1":16,"length2":19}]],"length":104,"saved":false}
+{"ts":1378479560751,"patch":[[{"diffs":[[0,"\n</htlm>"],[-1,"\n"]],"start1":95,"start2":95,"length1":9,"length2":8}]],"length":103,"saved":false}
+{"ts":1378479752981,"patch":[[{"diffs":[[0,"Hej</h1>"],[1,"\n<p>Mitt namn är Andreas Lengqvist och det här är\nmin alldeles egna sida där jag kommer dela med mig\nav mina laborationer i kursen Webbteknisk introduktion.</p>"],[0,"\n\n</body"]],"start1":77,"start2":77,"length1":16,"length2":176}]],"length":263,"saved":false}
