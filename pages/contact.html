@@ -25,30 +25,31 @@
             <legend>Fråga</legend>
             
             <label>Ärendetyp:
-            
             <select name="Ärendetyp">
                 <option value="fråga">Fråga</option>
                 <option value="jobb">Jobb</option>
                 <option value="skola">Skola</option>
                 <option value="övrigt">Övrigt</option>
             </select><br>
+            </label>
             
-            <label>Rubrik:<input type="text" class="text" name="Rubrik" value="">
+            <label>Rubrik:
+                <input type="text" class="text" name="Rubrik">
             </label><br>
             
             <label>Meddelande:<br>
-            <textarea name="Meddelande" rows="3" cols="30" value=""></textarea>
+                <textarea name="Meddelande" rows="3" cols="30"></textarea>
             </label>
         </fieldset>
             
-            <fieldset>
+        <fieldset>
             <legend>Svar till</legend>
-            <p> Kontakta mig via mail 
-            <input type="checkbox" name"mail" value="mail"></p>
-            <p>Kontakta mig via telefon
-            <input type="checkbox" name"telefon" value="phone"></p>
-            </fieldset>
-            <button>Skicka fråga</button>
+            Kontakta mig via mail 
+            <input name="Mail" type="checkbox" value="Kontakta mig på mail">
+            Kontakta mig via telefon
+            <input name="Telefon" type="checkbox" value="Kontakta mig på telefon">
+        </fieldset>
+                <button>Skicka fråga</button>
             
         </form>
         
