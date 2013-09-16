@@ -1,37 +1,49 @@
 body
 {
-background-color:#444444;
+    background-color:#444444;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 #container 
 {
     max-width:960px;
     background-color:#D2C7B9;
-    margin-left:100px;
+    margin: 0 auto;
+    text-align: left;
+
 }
 
 #header
 {
     width:960px;
+    
 }    
 
 #navigator
 {
-    float:left;
+    display:inline;
 }
 
     
 #content
 {
     width:660px;
-    background-color:#EBEBEB;
-    margin-left:200px;
+    background-color:#F5F5F5;
+    margin: auto;
+    text-align: left;
+
 }
 
 #footer
 {
     width:960px;
-    border-style:solid;
+    height:50px;
+    border-style:hidden;
     border-width:1px;
     background-color:white;
+    border-top-style:solid;
+    border-top-color:#444444;
+    border-top-width:10px;
 }
