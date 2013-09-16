@@ -1,1 +1,5 @@
-body {background:#F5F5F5;}
+#container {
+    width:1200px;
+    background:red;
+    }
+    
