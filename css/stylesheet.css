@@ -1,18 +1,37 @@
-#header
+body
 {
-    margin-left:100px;
-}    
+background-color:#444444;
+}
 
 #container 
 {
-    width:960px;
+    max-width:960px;
     background-color:#D2C7B9;
     margin-left:100px;
 }
+
+#header
+{
+    width:960px;
+}    
+
+#navigator
+{
+    float:left;
+}
+
     
 #content
 {
     width:660px;
     background-color:#EBEBEB;
     margin-left:200px;
+}
+
+#footer
+{
+    width:960px;
+    border-style:solid;
+    border-width:1px;
+    background-color:white;
 }
