@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt</title>
-        <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="stylesheet" href="../css/stylesheet.css" />
     </head>
     <body>
     <div id="container">
     
-        <h1>Kontakt</h1>
-        
+        <div id="header">
+            <img src="../pics/logo123.png" alt="logotype" />
+        </div>
+    
+    
+        <div id="navigator">
         <ul>
         
             <li><a href="../index.html">Start</a></li>
@@ -18,45 +22,48 @@
             <li><a href="contact.html">Kontakt</a></li>
         
         </ul>
-<!--Kontaktformulär med olika delar av formulärfunktioner som skickar data till en formulärprocessor-->
-        <h3>Kontakta mig</h3>
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            
-        <fieldset>
-            <legend>Fråga</legend>
-            
-            <label>Ärendetyp:
-            <select name="Ärendetyp">
-                <option value="Fråga">Fråga</option>
-                <option value="Jobb">Jobb</option>
-                <option value="Skola">Skola</option>
-                <option value="Övrigt">Övrigt</option>
-            </select><br>
-            </label>
-            
-            <label>Rubrik:
-                <input type="text" class="text" name="Rubrik">
-            </label><br>
-            
-            <label>Meddelande:<br>
-                <textarea name="Meddelande" rows="3" cols="30"></textarea>
-            </label>
-        </fieldset>
-            
-        <fieldset>
-            <legend>Svar till</legend>
-            Kontakta mig via mail 
-            <input name="Mail" type="checkbox" value="Kontakta mig på mail">
-            Kontakta mig via telefon
-            <input name="Telefon" type="checkbox" value="Kontakta mig på telefon">
-        </fieldset>
-                <button>Skicka fråga</button>
-            
-        </form>
+        </div>
         
-    
-    
+        <div id="content">
+<!--Kontaktformulär med olika delar av formulärfunktioner som skickar data till en formulärprocessor-->
+            <h1>Kontakt</h1>
+            <h3>Kontakta mig</h3>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                    
+                <fieldset>
+                    <legend>Fråga</legend>
+                    
+                    <label>Ärendetyp:
+                    <select name="Ärendetyp">
+                        <option value="Fråga">Fråga</option>
+                        <option value="Jobb">Jobb</option>
+                        <option value="Skola">Skola</option>
+                        <option value="Övrigt">Övrigt</option>
+                    </select><br>
+                    </label>
+                    
+                    <label>Rubrik:
+                        <input type="text" class="text" name="Rubrik">
+                    </label><br>
+                    
+                    <label>Meddelande:<br>
+                        <textarea name="Meddelande" rows="3" cols="30"></textarea>
+                    </label>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend>Svar till</legend>
+                    Kontakta mig via mail 
+                    <input name="Mail" type="checkbox" value="Kontakta mig på mail">
+                    Kontakta mig via telefon
+                    <input name="Telefon" type="checkbox" value="Kontakta mig på telefon">
+                </fieldset>
+                    <button>Skicka fråga</button>
+            </form>
+            
+        </div>
+        <div id="footer">
+        </div>
     </div>   
     </body>
-    
 </html>
