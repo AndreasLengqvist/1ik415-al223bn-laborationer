@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Andreas Lengqvist</title>
+        <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/stylesheet.css" />
     </head>
     <body>
@@ -16,7 +17,7 @@
         <div class="menu" id="navigator">
             <ul>
         
-                <li><a href="index.html">Start</a></li>
+                <li><a href="index.html" id="current">Start</a></li>
                 <li><a href="pages/presentation.html">Presentation</a></li>
                 <li><a href="pages/laborations.html">Laborationer</a></li>
                 <li><a href="pages/contact.html">Kontakt</a></li>
@@ -31,26 +32,26 @@
             <h1>Blogg</h1>
             
             <h4 id="gotovideo1">Video</h4>
-            <video width="320" height="240" controls>
+            <video class="element" width="320" height="240" controls>
             <source src="videos/video1.mp4" /> 
             </video>
             <p>Tagen från http://www.bigbuckbunny.org</p>
             
             <p>Testar här att lägga upp en video med start/stopp-funktion.</p>
             
-            <p>Skrivet av Andreas Lengqvist, 2013-09-11</p>
+            <p class="signatur">Skrivet av Andreas Lengqvist, 2013-09-11</p>
             
             <h4 id="gotovektorpic1">Vektorgrafik</h4>
-            <img src="pics/blogghtml.svg" alt="vektorgrafik" />
+            <img class="element" src="pics/blogghtml.svg" alt="vektorgrafik" />
             <p>Testade att rita i Illustrator och publicerar därför bilden här som ett test i hur man lägger upp bilder.</p>
             
-            <p>Skrivet av Andreas Lengqvist, 2013-09-11</p>
+            <p class="signatur">Skrivet av Andreas Lengqvist, 2013-09-11</p>
             
             
             <h4>Absoluta/Relativa sökvägar</h4>
             <p>Här kommer lite frågor om olika sorters sökvägar:</p>
         
-            <dl>
+            <dl class="dllist">
             
                 <dt>1.41. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
                 <dd>http://www.server.se/html/pages/bottom.html</dd>
@@ -72,7 +73,7 @@
             
             </dl>
             
-            <p>Skrivet av Andreas Lengqvist, 2013-09-10</p>
+            <p class="signatur">Skrivet av Andreas Lengqvist, 2013-09-10</p>
             
             
             <h4>Hallå världen!</h4>
@@ -82,9 +83,10 @@
             Varmt välkomna!
             </p>
             
-            <p>Skrivet av Andreas Lengqvist, 2013-09-09</p>
+            <p class="signatur">Skrivet av Andreas Lengqvist, 2013-09-09</p>
         </div>
         <div id="footer">
+            Ansvarig utgivare är Andreas Lengqvist
         </div>
     </div>
     </body>

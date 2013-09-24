@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Laborationer</title>
+        <link rel="stylesheet" href="../css/reset.css" />
         <link rel="stylesheet" href="../css/stylesheet.css" />
     </head>
     <body>
@@ -13,12 +14,12 @@
         </div>
         
         
-        <div id="navigator">
+        <div class="menu" id="navigator">
             <ul>
             
                 <li><a href="../index.html">Start</a></li>
                 <li><a href="presentation.html">Presentation</a></li>
-                <li><a href="laborations.html">Laborationer</a></li>
+                <li><a href="laborations.html" id="current">Laborationer</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
             
             </ul>    
@@ -28,14 +29,14 @@
         
             <h1>Min laborationsportal</h1>
             
-            <h3>Webbteknisk introduktion</h3>
+            <h2>Webbteknisk introduktion</h2>
     
             <ul>
-                <li><a href="#resultat1">Resultat</a></li>
+                <li><a class="links" href="#resultat1">Resultat</a></li>
             </ul>
             <ul>
-                <li><a href="#labb1">Laboration 1</a></li>    
-                <li><a href="#labb2">Laboration 2</a></li>
+                <li><a class="links" href="#labb1">Laboration 1</a></li>    
+                <li><a class="links" href="#labb2">Laboration 2</a></li>
             </ul>
        
 <!--Tabell med en thead, tbody och tfoot--> 
@@ -115,20 +116,20 @@
             
             <p>1.1. Utvecklingsmiljö</p>
             <ul>
-                <li><a href="../README.md">READ ME</a></li>
+                <li><a class="links" href="../README.md">READ ME</a></li>
             </ul>
             <p>1.2. Ett första dokument</p>
             <ul>
-                <li><a href="presentation.html">Presentation</a></li>
+                <li><a class="links" href="presentation.html">Presentation</a></li>
             </ul>
             <p>1.3. Startsidan</p>
             <ul>
-                <li><a href="../index.html">Startsidan</a></li>
+                <li><a class="links" href="../index.html">Startsidan</a></li>
             </ul>
     
 <!--Flera dl-listor i li-listor. Viktigt att tänka på att lägga varje dl-lista i en separat li-tagg-->
             <p>1.4. Absolut och relativa sökvägar</p>
-            <ul>
+            <ul class="ullist">
                 <li>
                     <dl>
                         <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
@@ -168,26 +169,26 @@
             </ul>
             
             <p>1.5. Länkar och mer listor</p>
-            <ul>
-                <li><a href="presentation.html#gotolinks">Länkar</a></li>
+            <ul class="ullist">
+                <li><a class="links" href="presentation.html#gotolinks">Länkar</a></li>
             </ul>
             
 <!--För att länka till en specifik plats på en annan sida.-->
             <p>1.6. Bilder</p>
-            <ul>
-                <li><a href="presentation.html#gotopic1">Presentationsbild jpeg</a></li>
-                <li><a href="../pics/logo123g.png">Startsidebild png</a></li>
-                <li><a href="../index.html#gotovektorpic1">Vektorbild svg</a></li>
+            <ul class="ullist">
+                <li><a class="links" href="presentation.html#gotopic1">Presentationsbild jpeg</a></li>
+                <li><a class="links" href="../pics/logo123g.png">Startsidebild png</a></li>
+                <li><a class="links" href="../index.html#gotovektorpic1">Vektorbild svg</a></li>
             </ul>
             
             <p>1.7. Videor</p>
-            <ul>
-                <li><a href="../index.html#gotovideo1">Video</a></li>
+            <ul class="ullist">
+                <li><a class="links" href="../index.html#gotovideo1">Video</a></li>
             </ul>
     
             <p>1.8. Tabeller</p>
-            <ul>
-                <li><a href="#resultat1">Resultatstabell</a></li>
+            <ul class="ullist">
+                <li><a class="links" href="#resultat1">Resultatstabell</a></li>
             </ul>
     
     
@@ -195,6 +196,7 @@
                    <h4 id="labb2">Laboration 2</h4>
         </div>
         <div id="footer">
+            Ansvarig utgivare är Andreas Lengqvist
         </div>
     </div>    
     </body>
