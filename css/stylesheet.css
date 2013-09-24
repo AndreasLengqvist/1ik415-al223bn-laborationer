@@ -1,6 +1,6 @@
 body
 {
-    background-color:#444444;
+    background-color:#000000;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,7 +9,7 @@ body
 #container 
 {
     max-width:960px;
-    background-color:#D2C7B9;
+    background-color:#727272;
     margin: 0 auto;
     text-align: left;
 
@@ -29,11 +29,14 @@ body
     
 #content
 {
-    width:660px;
+    width:760px;
     background-color:#F5F5F5;
-    margin: auto;
+    position:relative;
+    left:185px;
     text-align: left;
-
+    border-bottom-style:solid;
+    border-bottom-color:#727272;
+    border-bottom-width:25px;
 }
 
 #footer
