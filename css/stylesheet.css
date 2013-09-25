@@ -69,7 +69,6 @@ body
     width:160px;
     text-decoration:none;
     text-align:left;
-    font-weight:bold;
     color:white;
     margin-bottom:5px;
     padding:8px;
@@ -100,7 +99,17 @@ body
 
 ul 
 {
-    list-style-type: none;
+    list-style-type:none;
+}
+
+ol
+{
+    list-style-type:none;
+}
+
+dl
+{
+    list-style-type:none;
 }
 
 h1
@@ -140,15 +149,12 @@ h4
 p
 {
     font-size:0.8em;
+    margin-top:5px;
     margin-left:20px;
     margin-right:20px;
     margin-bottom:5px;
 }
 
-li
-{
-        font-size:0.9em;
-}
 
 
                 /*Inställning för bilder, videor och andra element i bloggen.*/
@@ -171,26 +177,29 @@ li
 }
 .ullist
 {
-    margin-left:50px;
+    margin-left:30px;
+    font-size:0.8em;
 }
 .ollist
 {
-    margin-left:40px;
+    margin-left:290px;
+    margin-bottom:10px;
     font-size:0.8em;
+    
 }
 
 a.links
 {
     margin-left:10px;
-    color:black;
+    color:green;
 }
 a.links:visited
 {
-    color:green;
+    color:orange;
 }
 a.links:hover
 {
-    color:orange;
+    color:black;
 }
 a.links:active
 {
@@ -203,17 +212,60 @@ a.links:active
     margin-right:10px;
 }
 
-
-.test
-{
-    -webkit-columns:30px 1;
-    columns:30px 1;
-}
-
 .test2
 {
-    -webkit-columns:30px 2;
-    columns:30px 2;
+    -webkit-columns:3;
+    columns:3;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-right:20px;
+}
+
+.question
+{
+    margin-left:280px;
+    margin-bottom:5px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.elementinfo
+{
+    font-size:0.5em;
+    margin-top:-5px;
+    margin-left:10px;
+}
+
+.labomenu
+{
+    padding:10px;
+    display:inline;
+}
+
+.right
+{
+    float:right;
+    margin:20px;
+}
+
+.left
+{
+    float:left;
+    margin:20px;
+}
+
+.listhead
+{
+    font-weight:bold;
+    display:inline;
+}
+
+.signaturpic
+{
+    background: url("pics/sign.jpg" no-repeat);
+    width:20px;
+    height:20px;
+    float:right;
 }
 
 
