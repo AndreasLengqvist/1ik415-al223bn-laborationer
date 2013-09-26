@@ -304,4 +304,54 @@ a.links:active
     text-align:center;
 }
 
-
+form
+{
+    margin:20px;
+    width:500px;
+    padding:10px;
+    border-style:solid;
+    border-width:1px;
+    box-shadow:1px 2px 20px;
+}
+form select
+{
+    margin:10px;
+}
+form input
+{
+    margin:10px;
+}
+form textarea
+{
+    margin:10px;
+    max-width:450px;
+    max-height:150px;
+}
+form label
+{
+    font-size:0.8em;
+    padding:10px;
+}
+form legend
+{
+    border: 1px ridge gray;
+    border-radius:5px;
+    font-weight:bold;
+    margin:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:2px;
+    box-shadow:1px 2px 5px;
+}
+form fieldset
+{
+    border: 1px ridge grey;
+    margin-bottom:10px;
+}
+form button
+{
+    margin:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
