@@ -282,22 +282,21 @@ a.links:active
     margin-bottom:30px;
 }
 
-#table
+table
 {
     box-shadow:1px 2px 20px;
     margin:20px;
-    width:300px;
 
 }
 
-.tablelabo th
+th
 {
     border:1px solid black;
     padding:5px;
     text-align:center;
 }
 
-.tablelabo td
+td
 {
     border:1px solid black;
     padding:5px;
