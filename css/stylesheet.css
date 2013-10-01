@@ -90,10 +90,16 @@ body
     background-position:left 146px top -235px;
 }
 
+#laboicon
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -138px;
+}
+
 #contacticon
 {
     background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -43px;
+    background-position:left 146px top -331px;
 }
 
 
@@ -109,7 +115,7 @@ body
 #homeicon:hover
 {
     background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top 5px;
+    background-position:left 146px top 6px;
 }
 
 #presicon:hover
@@ -118,11 +124,18 @@ body
     background-position:left 146px top -187px;
 }
 
+#laboicon:hover
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -91px;
+}
+
 #contacticon:hover
 {
     background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top 5px;
+    background-position:left 146px top -283px;
 }
+
 
 .menu a:active
 {
