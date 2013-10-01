@@ -77,6 +77,26 @@ body
     border-color:black;
     border-width:1px;
 }
+
+#homeicon
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -43px;
+}
+
+#presicon
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -235px;
+}
+
+#contacticon
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -43px;
+}
+
+
 .menu a:visited
 {
     background:434449;
@@ -85,6 +105,25 @@ body
 {
     background:#5f6066;
 }
+
+#homeicon:hover
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top 5px;
+}
+
+#presicon:hover
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top -187px;
+}
+
+#contacticon:hover
+{
+    background:url(pics/sprite.png) no-repeat;
+    background-position:left 146px top 5px;
+}
+
 .menu a:active
 {
     background:#d2d2d2;
@@ -96,8 +135,6 @@ body
     color:black;
     text-align:right;
 }
-
-
 
 ul 
 {
