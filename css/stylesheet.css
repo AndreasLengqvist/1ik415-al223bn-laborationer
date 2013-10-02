@@ -21,7 +21,7 @@ body
     box-shadow:7px 7px 10px;
 }    
 
-#navigator
+#menu
 {
     float:left;
     left:1px;
@@ -62,10 +62,12 @@ body
 
 
             /*meny-inställningar*/
-.menu a
+#menu a
 {
     float:left;
     background:#434449;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
     width:160px;
     text-decoration:none;
     text-align:left;
@@ -78,71 +80,64 @@ body
     border-width:1px;
 }
 
-#homeicon
+#menu a.homeicon
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -43px;
+    background-position:146px -43px;
 }
 
-#presicon
+#menu a.presicon
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -235px;
+    background-position:146px -235px;
 }
 
-#laboicon
+#menu a.laboicon
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -138px;
+    background-position:146px -138px;
 }
 
-#contacticon
+#menu a.contacticon
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -331px;
+    background-position:146px -331px;
 }
 
-
-.menu a:visited
+#menu a:visited
 {
     background:434449;
 }
-.menu a:hover
+#menu a:hover
 {
     background:#5f6066;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
 }
 
-#homeicon:hover
+#menu a.homeicon:hover
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top 6px;
+    background-position:146px 5px;
 }
 
-#presicon:hover
+#menu a.presicon:hover
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -187px;
+    background-position:146px -187px;
 }
 
-#laboicon:hover
+#menu a.laboicon:hover
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -91px;
+    background-position:146px -90px;
 }
 
-#contacticon:hover
+#menu a.contacticon:hover
 {
-    background:url(pics/sprite.png) no-repeat;
-    background-position:left 146px top -283px;
+    background-position:146px -283px;
 }
 
 
-.menu a:active
+#menu a:active
 {
     background:#d2d2d2;
 }
 
-#current
+#menu a.current
 {
     background:white;
     color:black;
