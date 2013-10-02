@@ -399,3 +399,8 @@ form button
     padding-left:10px;
     padding-right:10px;
 }
+
+.downmargin
+{
+    margin-bottom:50px;
+}
