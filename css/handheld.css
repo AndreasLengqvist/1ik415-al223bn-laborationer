@@ -175,11 +175,11 @@ a
     max-width:100%;
 }
 
-.test2
+.columnspres
 {
-    -webkit-columns:0;
-
-    columns:0;
+    -webkit-columns:1;
+    columns:1;
+    margin:10px;
 }
 
 .right
@@ -195,4 +195,79 @@ a
 ol
 {
     text-align:left;
+}
+
+ul
+{
+    margin-bottom:5px;
+}
+
+form
+{
+    margin:20px;
+    width:340px;
+    padding:10px;
+    border-style:none;
+    border-width:0px;
+    box-shadow:0px 0px 0px;
+}
+form select
+{
+    margin:-5px;
+    font-size:2em;
+}
+form input
+{
+    margin:30px;
+    
+}
+form textarea
+{
+    margin:10px;
+    max-width:200px;
+    max-height:30px;
+    margin-bottom:30px;
+}
+form label
+{
+    font-size:1.3em;
+    padding:10px;
+}
+form legend
+{
+    display:none;
+}
+form fieldset
+
+{
+    border: none;
+    border-width:0px;
+    margin-bottom:0px;
+}
+
+.arende
+{
+    margin-right:10px;
+}
+
+.rubrik
+{
+    margin-right:10px;
+}
+
+form button
+{
+    margin:20px;
+    padding:10px;
+    font-size:1.5em;
+}
+
+.mailcheck
+{
+    margin-left:54px;
+}
+
+.picsign
+{
+        background-position:90% 98%;
 }

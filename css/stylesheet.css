@@ -260,9 +260,7 @@ a.links:active
 {
     -webkit-columns:3;
     columns:3;
-    margin-top:30px;
-    margin-bottom:20px;
-    margin-right:20px;
+    margin-bottom:5px;
 }
 
 .question
@@ -278,7 +276,7 @@ a.links:active
 .elementinfo
 {
     font-size:0.5em;
-    margin-top:-5px;
+    margin-top:0px;
     margin-left:20px;
 }
 
@@ -304,13 +302,6 @@ a.links:active
 {
     font-weight:bold;
     display:inline;
-}
-
-.signaturpic1
-{
-    background-image: url("pics/signatur3.jpg");
-    background-repeat:no-repeat;
-    background-position:50px 5px;
 }
 
 table
@@ -389,4 +380,11 @@ form button
 .downmargin
 {
     margin-bottom:50px;
+}
+
+.picsign
+{
+    background-image: url("pics/signatur3.jpg");
+    background-repeat:no-repeat;
+    background-position:95% 45%;
 }
