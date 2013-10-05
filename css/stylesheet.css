@@ -7,17 +7,18 @@ body
 
 #container 
 {
-    max-width:960px;
+    width:960px;
     background-color:#727272;
     margin: auto;
     text-align: left;
-
 }
 
 #header
 {
-    width:960px;
     background-color:white;
+    background:url(../pics/logo123g.png) no-repeat;
+    width:960px;
+    height:150px;
     box-shadow:7px 7px 10px;
 }    
 
@@ -44,7 +45,6 @@ body
     border-color:black;
     border-width:1px;
     box-shadow:0px 0px 20px;
-
 }
 
 #footer
@@ -205,11 +205,7 @@ p
 
 
                 /*Inställning för bilder, videor och andra element i bloggen.*/
-.element
-{
-    margin-left:20px;
-    margin-bottom:5px;
-}
+                
 .dllist
 {
     font-size:0.8em;
@@ -229,7 +225,7 @@ p
 }
 .ollist
 {
-    margin-left:290px;
+    margin-left:30px;
     margin-bottom:10px;
     font-size:0.8em;
     
@@ -253,13 +249,14 @@ a.links:active
     color:yellow;
 }
 
-#bildjagleft
+.left
 {
     float:left;
-    margin-right:10px;
+    margin:20px;
+    
 }
 
-.test2
+.columnspres
 {
     -webkit-columns:3;
     columns:3;
@@ -270,10 +267,12 @@ a.links:active
 
 .question
 {
-    margin-left:280px;
-    margin-bottom:5px;
-    margin-top:10px;
     font-weight:bold;
+}
+
+.quest
+{
+    
 }
 
 .elementinfo
@@ -309,22 +308,9 @@ a.links:active
 
 .signaturpic1
 {
-    background: url("pics/signatur3.jpg");
-    position:relative;
-    left:675px;
-    width:70px;
-    height:51px;
-}
-
-.greenline
-{
-    background: url("pics/greenline1.jpg");
-    position:relative;
-    width:588px;
-    height:10px;
-    box-shadow:0px 2px 15px;
-    margin-top:-10px;
-    margin-bottom:30px;
+    background-image: url("pics/signatur3.jpg");
+    background-repeat:no-repeat;
+    background-position:50px 5px;
 }
 
 table

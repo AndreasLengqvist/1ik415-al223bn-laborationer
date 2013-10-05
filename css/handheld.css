@@ -1,0 +1,198 @@
+
+img, video
+{
+    max-width:100%;
+}
+
+#container
+{
+    max-width:100%;
+}
+
+#header
+{
+    background-color:white;
+    background-image:url(pics/logohandheld1.png);
+    background-repeat:no-repeat;
+    max-width:100%;
+    box-shadow:7px 7px 10px;
+    text-align:center;
+}
+
+#menu
+{
+    float:left;
+    left:1px;
+    width:185px;
+    margin-top:12px;
+    margin-left:3px;
+    max-width:100%;
+}
+
+#content
+{
+    background-color:white;
+    text-align: left;
+    margin-left:0px;
+    margin-top:174px;
+    margin-bottom:-17px;
+    padding-bottom:20px;
+    border-style:none;
+    max-width:100%;
+}
+
+#footer
+{
+    max-width:100%;
+    margin-top:28px;
+}
+
+
+#menu a
+{
+    float:left;
+    background:#434449;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    width:185px;
+    text-decoration:none;
+    text-align:left;
+    color:white;
+    padding:8px;
+    box-shadow:3px 2px 10px black;
+    border-style:ridge;
+    border-color:black;
+    border-width:1px;
+    max-width:100%;
+}
+
+
+#menu a.homeicon
+{
+    background-position:170px -43px;
+}
+
+#menu a.presicon
+{
+    background-position:170px -235px;
+}
+
+#menu a.laboicon
+{
+    background-position:170px -138px;
+}
+
+#menu a.contacticon
+{
+    background-position:170px -331px;
+}
+
+#menu a:visited
+{
+    background:434449;
+}
+
+#menu a.homeicon:hover
+{
+    background-position:170px 5px;
+}
+
+#menu a.presicon:hover
+{
+    background-position:170px -187px;
+}
+
+#menu a.laboicon:hover
+{
+    background-position:170px -90px;
+}
+
+#menu a.contacticon:hover
+{
+    background-position:170px -283px;
+}
+
+h1
+{
+    max-width:100%;
+    padding-top:20px;
+}
+
+h2
+{
+    max-width:100%;
+}
+
+h4
+{
+    max-width:100%;
+}
+
+.signatur
+{
+    max-width:100%;
+}
+
+p
+{
+    max-width:100%;
+}
+
+.element
+{
+    max-width:100%;
+}
+.dllist
+{
+    max-width:100%;
+}
+
+.dllist dd
+{
+    max-width:100%;
+}
+.ullist
+{
+    max-width:100%;
+}
+.ollist
+{
+    max-width:100%;
+}
+
+a
+{
+    max-width:100%;
+}
+
+.overflowed
+{
+    overflow:scroll;
+}
+
+.signaturpic1
+{
+    max-width:100%;
+}
+
+.test2
+{
+    -webkit-columns:0;
+
+    columns:0;
+}
+
+.right
+{
+    float:none;
+}
+
+.left
+{
+    float:none;
+}
+
+ol
+{
+    text-align:left;
+}
