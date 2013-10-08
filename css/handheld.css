@@ -1,12 +1,17 @@
 
 img, video
 {
-    max-width:100%;
+    max-width:50%;
+}
+
+.right
+{
+    max-width:50%;
 }
 
 #container
 {
-    max-width:100%;
+    width:100%;
 }
 
 #header
@@ -149,8 +154,14 @@ p
 
 .dllist dd
 {
+    max-width:50%;
+}
+
+.dllist dt
+{
     max-width:100%;
 }
+
 .ullist
 {
     max-width:100%;
@@ -218,7 +229,7 @@ form select
 }
 form input
 {
-    margin:30px;
+    margin:10px;
     
 }
 form textarea
@@ -262,12 +273,22 @@ form button
     font-size:1.5em;
 }
 
-.mailcheck
-{
-    margin-left:54px;
-}
-
 .picsign
 {
         background-position:90% 98%;
+}
+
+table
+{
+    max-width:100%;
+}
+
+th
+{
+    max-width:100%;
+}
+
+td
+{
+    max-width:100%;
 }
