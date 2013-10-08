@@ -154,7 +154,7 @@ p
 
 .dllist dd
 {
-    max-width:50%;
+    max-width:100%;
 }
 
 .dllist dt
@@ -215,21 +215,21 @@ ul
 
 form
 {
-    margin:20px;
-    width:340px;
-    padding:10px;
+
+    max-width:100%;
+
     border-style:none;
     border-width:0px;
     box-shadow:0px 0px 0px;
 }
 form select
 {
-    margin:-5px;
-    font-size:2em;
+    font-size:1.2em;
+    margin-bottom:5px;
 }
 form input
 {
-    margin:10px;
+    margin-bottom:10px;
     
 }
 form textarea
@@ -243,6 +243,8 @@ form label
 {
     font-size:1.3em;
     padding:10px;
+    display:list-item;
+    list-style-type:none;
 }
 form legend
 {
@@ -266,13 +268,6 @@ form fieldset
     margin-right:10px;
 }
 
-form button
-{
-    margin:20px;
-    padding:10px;
-    font-size:1.5em;
-}
-
 .picsign
 {
         background-position:90% 98%;
@@ -291,4 +286,18 @@ th
 td
 {
     max-width:100%;
+}
+
+li
+{
+    max-width:100%;
+}
+
+.labomenu
+{
+    max-width:100%;
+    display:list-item;
+    
+    
+    
 }
