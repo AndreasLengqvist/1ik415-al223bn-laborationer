@@ -4,17 +4,17 @@ body
     font-family: Georgia, Times, serif; font-size: 10pt;
 }
 
-#header
+header, #header
 {
     display:none;
 }
 
-#menu
+nav, #menu
 {
     display:none;
 }
 
-#content
+main, #content
 {
     background-color:white;
     text-align: left;
@@ -26,12 +26,12 @@ body
 
 }
 
-#footer
+footer, #footer
 {
     display:none;
 }
 
-#content a:after
+article a:after, #content a:after
 {
     content:" (" attr(href) ") ";
 }

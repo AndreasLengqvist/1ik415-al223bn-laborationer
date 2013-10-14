@@ -13,16 +13,16 @@ body
     text-align: left;
 }
 
-#header
+header, #header
 {
     background-color:white;
     background:url(../pics/logo123g.png) no-repeat;
     width:960px;
     height:150px;
     box-shadow:7px 7px 10px;
-}    
+}   
 
-#menu
+nav, #menu
 {
     float:left;
     left:1px;
@@ -32,7 +32,7 @@ body
 }
 
 
-#content
+main, #content
 {
     width:760px;
     background-color:white;
@@ -47,7 +47,7 @@ body
     box-shadow:0px 0px 20px;
 }
 
-#footer
+footer, #footer
 {
     width:960px;
     border-style:hidden;
@@ -62,7 +62,7 @@ body
 
 
             /*meny-inställningar*/
-#menu a
+nav a, #menu a
 {
     float:left;
     background:#434449;
@@ -80,64 +80,64 @@ body
     border-width:1px;
 }
 
-#menu a.homeicon
+nav a.homeicon, #menu a.homeicon
 {
     background-position:146px -43px;
 }
 
-#menu a.presicon
+nav a.presicon, #menu a.presicon
 {
     background-position:146px -235px;
 }
 
-#menu a.laboicon
+nav a.laboicon, #menu a.laboicon
 {
     background-position:146px -138px;
 }
 
-#menu a.contacticon
+nav a.contacticon, #menu a.contacticon
 {
     background-position:146px -331px;
 }
 
-#menu a:visited
+nav a:visited, #menu a:visited
 {
     background:434449;
 }
-#menu a:hover
+nav a:hover, #menu a:hover
 {
     background:#5f6066;
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
 }
 
-#menu a.homeicon:hover
+nav a.homeicon:hover, #menu a.homeicon:hover
 {
     background-position:146px 5px;
 }
 
-#menu a.presicon:hover
+nav a.presicon:hover, #menu a.presicon:hover
 {
     background-position:146px -187px;
 }
 
-#menu a.laboicon:hover
+nav a.laboicon:hover, #menu a.laboicon:hover
 {
     background-position:146px -90px;
 }
 
-#menu a.contacticon:hover
+nav a.contacticon:hover, #menu a.contacticon:hover
 {
     background-position:146px -283px;
 }
 
 
-#menu a:active
+nav a:active, #menu a:active
 {
     background:#d2d2d2;
 }
 
-#menu a.current
+nav a.current, #menu a.current
 {
     background:white;
     color:black;

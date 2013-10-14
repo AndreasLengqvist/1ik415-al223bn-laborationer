@@ -14,7 +14,7 @@ img, video
     width:100%;
 }
 
-#header
+header, #header
 {
     background-color:white;
     background-image:url(pics/logohandheld1.png);
@@ -24,7 +24,7 @@ img, video
     text-align:center;
 }
 
-#menu
+nav, #menu
 {
     float:left;
     left:1px;
@@ -34,7 +34,7 @@ img, video
     max-width:100%;
 }
 
-#content
+main, #content
 {
     background-color:white;
     text-align: left;
@@ -46,14 +46,14 @@ img, video
     max-width:100%;
 }
 
-#footer
+footer, #footer
 {
     max-width:100%;
     margin-top:28px;
 }
 
 
-#menu a
+nav a, #menu a
 {
     float:left;
     background:#434449;
@@ -72,47 +72,47 @@ img, video
 }
 
 
-#menu a.homeicon
+nav a.homeicon, #menu a.homeicon
 {
     background-position:170px -43px;
 }
 
-#menu a.presicon
+nav a.presicon, #menu a.presicon
 {
     background-position:170px -235px;
 }
 
-#menu a.laboicon
+nav a.laboicon, #menu a.laboicon
 {
     background-position:170px -138px;
 }
 
-#menu a.contacticon
+nav a.contacticon, #menu a.contacticon
 {
     background-position:170px -331px;
 }
 
-#menu a:visited
+nav a:visited, #menu a:visited
 {
     background:434449;
 }
 
-#menu a.homeicon:hover
+nav a.homeicon:hover, #menu a.homeicon:hover
 {
     background-position:170px 5px;
 }
 
-#menu a.presicon:hover
+nav a.presicon:hover, #menu a.presicon:hover
 {
     background-position:170px -187px;
 }
 
-#menu a.laboicon:hover
+nav a.laboicon:hover, #menu a.laboicon:hover
 {
     background-position:170px -90px;
 }
 
-#menu a.contacticon:hover
+nav a.contacticon:hover, #menu a.contacticon:hover
 {
     background-position:170px -283px;
 }
