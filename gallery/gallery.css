@@ -62,6 +62,10 @@ a:nth-child(3n)
     -moz-transform: scale(1.5);
     transform: scale(1.5);
     z-index:100;
+    -webkit-box-shadow: 0 8px 40px;
+    -moz-box-shadow:0 8px 40px;
+    box-shadow:0 8px 40px;
+    
 }
 
 
