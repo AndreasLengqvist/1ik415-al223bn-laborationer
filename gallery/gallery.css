@@ -1,0 +1,68 @@
+body
+{
+    background:#BC2F36;
+}
+
+.galleryimg
+{
+    margin:40px;
+}
+
+img
+{
+    width:200px;
+}
+
+.galleryimg a
+{
+    float:left;
+    padding:10px 10px 25px;
+    background:white;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    margin: 0 15px 30px;
+    -webkit-box-shadow: 0 8px 15px;
+    -moz-box-shadow:0 8px 15px;
+    box-shadow:0 8px 15px;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    z-index:0;
+    position:relative;
+}
+
+.galleryimg a:after 
+{
+    content: attr(title);
+    display:block;
+}
+
+.galleryimg a:nth-child(even)
+{
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+
+a:nth-child(3n)
+{
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    transform:rotate(4deg);
+}
+
+
+.galleryimg a:hover
+{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index:100;
+}
+
+
+
