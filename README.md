@@ -1,13 +1,7 @@
-1ik415-al223bn-laborationer
-===========================
+#Webbteknisk introduktion - HT2013
 
-Mina laborationer i Webbteknisk introduktion.
+Kursen var min första kurs inom programmering och introduktion till programmet Utvecklare av digitala tjänster på Linnéuniversitetet. <br>
 
-Mitt namn är Andreas Lengqvist och det här är
-min alldeles egna sida där jag kommer dela med mig
-av mina laborationer i kursen Webbteknisk introduktion.
-
-Ett helt gäng med kommentarer är inlagda lite överallt där jag förklarar
-mer om hur de olika funktionerna fungerar.
-
-Hoppas du får en härlig upplevelse!
+Programmeringsspråk: <b>HTML/CSS</b><br>
+Betygsskala: <b>G/IG</b><br>
+Slutbetyg: <b>G</b>
