@@ -1,6 +1,6 @@
 #Webbteknisk introduktion - HT2013
 
-Kursen var min första kurs inom programmering och introduktion till programmet Utvecklare av digitala tjänster på Linnéuniversitetet. <br>
+Introduktionskurs till programmet Utvecklare av digitala tjänster 180hp vid Linnéuniversitetet. <br>
 
 Programmeringsspråk: <b>HTML/CSS</b><br>
 Betygsskala: <b>G/IG</b><br>
